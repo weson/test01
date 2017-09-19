@@ -1,0 +1,55 @@
+基站代理同步地址和端口
+
+深圳 	    STATION_SZAE      syn.stationSyncHost=172.16.30.108    stationSyncPort=8068
+华强仓    STATION_CNSZXD    syn.stationSyncHost=172.16.30.108    stationSyncPort=8198
+香港仓    STATION_HKHKGD 	 syn.stationSyncHost=172.16.30.108    stationSyncPort=8158
+欧洲 	    STATION_EUAE  	  syn.stationSyncHost=172.16.30.108    stationSyncPort=8138
+英国 	    STATION_GBLONA 	  syn.stationSyncHost=172.16.30.108    stationSyncPort=8168
+德国 	    STATION_DEKARA 	  syn.stationSyncHost=172.16.30.108    stationSyncPort=8188
+
+
+
+
+
+测试环境各区域和仓库配置
+
+深圳区域：	
+FB4-WAREHOUSER-TO-WMS-TEST	fb4从warehouse到wms			  http://10.104.6.5:5410/wms/syn/data/warehouse
+FB4-WMS-TO-DISPATCH-TEST	fb4从wms同步到dispatch			http://10.104.6.5:9880/dispatch/syn/data/wms
+FB4-DISPATCH-TO-WMS-TEST	fb4从dispatch同步到wms			http://10.104.6.5:5410/wms/syn/data/dispatch
+FB4-WMS-TO-APPOINTMENT-TEST fb4从wms同步到appointment		http://10.104.6.5:9430/appointment/syn/data/wms
+FB4-APPOINTMENT-TO-WMS-TEST	fb4从appointment到wms		      http://10.104.6.5:5410/wms/syn/data/appionment	
+
+
+
+华强仓
+FB4-WMS-TO-WAREHOUSE-TEST	fb4从wms同步到warehouse		http://10.104.6.5:7410/warehouse/syn/data/wms
+
+香港仓
+FB4-WMS-TO-WAREHOUSE-TEST	fb4从wms同步到warehouse		http://10.104.6.5:7410/warehouse/syn/data/wms
+
+
+
+欧洲区域：	
+FB4-WAREHOUSER-TO-WMS-TEST  	fb4从warehouse到wms			  http://10.104.6.22:5410/wms/syn/data/warehouse
+FB4-WMS-TO-DISPATCH-TEST	    fb4从wms同步到dispatch			http://10.104.6.22:9880/dispatch/syn/data/wms 
+FB4-DISPATCH-TO-WMS-TEST	    fb4从dispatch同步到wms			http://10.104.6.22:5410/wms/syn/data/dispatch
+FB4-WMS-TO-APPOINTMENT-TEST     fb4从wms同步到appointment		http://10.104.6.22:9430/appointment/syn/data/wms
+FB4-APPOINTMENT-TO-WMS-TEST		fb4从appointment到wms			  http://10.104.6.22:5410/wms/syn/data/appionment		
+
+
+
+英国仓
+FB4-WMS-TO-WAREHOUSE-TEST	fb4从wms同步到warehouse		http://10.104.6.22:7410/warehouse/syn/data/wms
+
+德国仓
+FB4-WMS-TO-WAREHOUSE-TEST	fb4从wms同步到warehouse		http://10.104.6.22:7410/warehouse/syn/data/wms
+
+
+开发环境配置
+
+将测试环境中的TEST改为DEV
+
+地址改为    172.16.30.65
+
+
